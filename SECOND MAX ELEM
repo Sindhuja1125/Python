@@ -1,0 +1,10 @@
+a=[33,5,111,22,9,2,119,222]
+max=a[0]
+second_max=a[0]
+for i in a:
+  if i>max:
+    second_max=max
+    max=i
+  elif i>second_max and i<max:
+    second_max=i
+print(second_max) 
